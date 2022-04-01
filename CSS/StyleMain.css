@@ -1,0 +1,567 @@
+/*header*/
+
+
+/*button 3 bars top right*/
+
+
+    .ButtonMenuDisign {
+        width: 40px;
+        height: 7px;
+        background-color: white;
+        border-radius: 10px;
+        background: -webkit-linear-gradient(90deg, rgba(147,99,41,1) 0%, rgba(251,243,160,1) 50%, rgba(147,99,41,1) 100%);
+        box-shadow: 2px 2px 2px 2px rgba(60,60,60,1);
+    }
+
+    #BarButton {
+        width: 45px;
+        background-color: transparent;
+        border: none;
+    }
+
+    .TextMenuShadow:hover {
+        text-shadow: 2px 2px 2px white;
+    }
+
+    .MenuText {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        list-style: none;
+        font-size: 0px;
+        color: white;
+        text-shadow: 3px 3px 3px rgba(20,20,20,1);
+    }
+
+
+
+
+    /*header organisation*/
+    /* */
+    .BackgroundFlexbox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+
+
+
+
+    .backgroundGradient {
+
+        margin-right: -18px;
+        height: 120px;
+        background: -webkit-linear-gradient(45deg, rgba(28,28,28,1) 0%, rgba(76,76,76,1) 100%);
+    }
+
+
+
+
+    /*gradient lines gold*/
+    .GradientLine {
+        height: 8px;
+        background: rgb(0,0,0);
+        background: -webkit-linear-gradient(90deg, rgba(147,99,41,1) 0%, rgba(251,243,160,1) 50%, rgba(147,99,41,1) 100%);
+    }
+
+
+
+    /* real miles truckkers sign and logo*/
+
+    @media screen and (min-width: 651px) {
+
+        .RMTSlogan {
+            font-size: 140%;
+            width: 550px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-left: -5%;
+        }
+
+        .RMTshort {
+            font-size: 0px;
+
+        }
+
+        .logoPic {
+            width: 81px;
+            height: 90px;
+            margin-left: 3%;
+            margin-top: 10px;
+            margin-right: -50px;
+        }
+
+        .HeaderBox {
+            width: 100%;
+            margin-top: -12px;
+            position: fixed;
+        }
+
+        .flex {
+            width: 30px;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-right: 5%;
+            margin-left: -7%;
+        }
+
+        /*Menu*/
+
+        .MenuFlex {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        .Menu {
+            margin-top: 110px;
+            position: fixed;
+            z-index: 4;
+            width:30%;
+            background-image: -webkit-linear-gradient(45deg, rgba(28,28,28,1) 0%, rgba(76,76,76,1) 100%);
+            border-bottom-left-radius: 30px;
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        .RMTSlogan {
+            font-size: 100%;
+            width: 550px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 18px;
+            margin-top: 20px;
+
+        }
+
+        .RMTshort {
+            font-size: 0px;
+            margin-bottom: -10px;
+        }
+
+        .logoPic {
+            width: 81px;
+            height: 90px;
+            margin-left: 3%;
+            margin-top: 10px;
+            margin-right: -50px;
+        }
+
+        .HeaderBox {
+            width: 102%;
+            margin-top: -12px;
+            position: fixed;
+        }
+
+        .flex {
+            width: 30px;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-right: 5%;
+            margin-left: -7%;
+        }
+
+
+
+        /*menu*/
+        .MenuFlex {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+        }
+
+        .Menu {
+            margin-top: 110px;
+            position: fixed;
+            right: 0%;
+            z-index: 4;
+            width: 100%;
+            background-image: -webkit-linear-gradient(45deg, rgba(28,28,28,1) 0%, rgba(76,76,76,1) 100%);
+            border-bottom-left-radius: 30px;
+        }
+    }
+
+    @media screen and (max-width: 480px) {
+        .RMTSlogan {
+            font-size: 0px;
+        }
+
+        .RMTshort {
+            font-size: 30px;
+            margin-bottom: 0px;
+            margin-top: -15px;
+            margin-right: 20px;
+        }
+
+        .logoPic {
+            width: 81px;
+            height: 90px;
+            margin-left: 3%;
+            margin-top: 0px;
+            margin-right: -50px;
+        }
+
+        .HeaderBox {
+            width: 103%;
+            margin-top: -12px;
+            position: fixed;
+        }
+
+        .flex {
+            width: 30px;
+            height: 40px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            margin-right: 5%;
+            margin-left: -15%;
+        }
+    }
+
+
+    /*makes text in to golden gradient*/
+    .TextGradient {
+        -webkit-background-clip: text;
+        -moz-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-color: black;
+        background-image: -webkit-linear-gradient(90deg, rgba(147,99,41,1) 0%, rgba(251,243,160,1) 50%, rgba(147,99,41,1) 100%);
+    }
+
+
+
+
+
+
+    /*main*/
+
+    /* big pickture 1 vanbove*/
+
+    @media screen and (min-width: 1001px) {
+        .PicktureRMT {
+            width: 100%;
+            margin-right: 0px;
+            margin-top: -81px;
+            margin-bottom: -3px;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .PicktureRMT {
+            width: 100%;
+            margin-right: 0px;
+            margin-top: 0px;
+            margin-bottom: -2px;
+        }
+    }
+
+    @media screen and (max-width: 1000px) {
+        .PicktureRMT {
+            width: 100%;
+            margin-right: 0px;
+            margin-top: 50px;
+            margin-bottom: -2px;
+        }
+    }
+
+    @media screen and (max-width: 370px) {
+        .PicktureRMT {
+            width: 100%;
+            margin-right: 0px;
+            margin-top: 95px;
+            margin-bottom: -2px;
+        }
+    }
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+
+
+
+
+
+
+
+    /*text box with info about rmt*/
+
+
+    .TextBox2 {
+        width: 100%;
+        height: 120%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+
+    @media screen and (min-width: 1151px) {
+
+        .InfoBox {
+            background: -webkit-linear-gradient(45deg, rgba(28,28,28,1) 0%, rgba(60,60,60,1) 100%);
+            width: 80%;
+            height: 100%;
+            height: 40%;
+            border-radius: 50px;
+            margin-top: 70px;
+            margin-bottom: 70px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .PicktureText {
+            width: 45%;
+            border-radius: 50px;
+            box-shadow: 2px 2px 2px 2px rgba(20,20,20,1);
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        .TextBox {
+            width: 40%;
+            height: 80%;
+            background-color: #5f5f5f;
+            border-radius: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 2px 2px 2px 2px rgba(20,20,20,1);
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        .PicktureBox {
+            width: 0%;
+            height: 0%;
+        }
+
+        .PicktureText2 {
+            width: 0px;
+        }
+
+        .PicktureText3 {
+            width: 0px;
+        }
+
+        .PicktureText4 {
+            width: 0px;
+        }
+
+        .StyleText {
+            font-size: 30px;
+            margin-left: 15px;
+            margin-right: 15px;
+            color: white;
+            text-shadow: 3px 3px 3px rgba(20,20,20,1);
+            text-align: center;
+        }
+    }
+
+
+    @media screen and (max-width: 1150px) {
+
+        .InfoBox {
+            background: -webkit-linear-gradient(45deg, rgba(28,28,28,1) 0%, rgba(60,60,60,1) 100%);
+            width: 80%;
+            height: 100%;
+            height: 40%;
+            border-radius: 50px;
+            margin-top: 70px;
+            margin-bottom: 70px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .PicktureBox {
+            width: 45%;
+            height: 100%;
+        }
+
+        .PicktureText {
+            width: 0px;
+        }
+
+        .PicktureText4 {
+            width: 0px;
+        }
+
+        .PicktureText2 {
+            width: 300px;
+            border-radius: 50px;
+            box-shadow: 2px 2px 2px 2px rgba(20,20,20,1);
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        .PicktureText3 {
+            width: 300px;
+            border-radius: 50px;
+            box-shadow: 2px 2px 2px 2px rgba(20,20,20,1);
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        .TextBox {
+            width: 40%;
+            height: 80%;
+            background-color: #5f5f5f;
+            border-radius: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 2px 2px 2px 2px rgba(20,20,20,1);
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        .StyleText {
+            font-size: 25px;
+            margin-left: 15px;
+            margin-right: 15px;
+            color: white;
+            text-shadow: 3px 3px 3px rgba(20,20,20,1);
+            text-align: center;
+        }
+    }
+
+    @media screen and (max-width: 850px) {
+
+        .InfoBox {
+            background: -webkit-linear-gradient(45deg, rgba(28,28,28,1) 0%, rgba(60,60,60,1) 100%);
+            width: 80%;
+            height: 100%;
+            height: 40%;
+            border-radius: 50px;
+            margin-top: 70px;
+            margin-bottom: 70px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .PicktureBox {
+            width: 0px;
+            height: 0px;
+        }
+
+        .PicktureText {
+            width: 0px;
+        }
+
+        .PicktureText2 {
+            width: 0px;
+            height: 0px;
+            margin-left: -10000px
+        }
+
+        .PicktureText3 {
+            width: 0px;
+            height: 0px;
+            margin-left: -10000px
+        }
+
+        .PicktureText4 {
+            width: 80%;
+            border-radius: 50px;
+            box-shadow: 2px 2px 2px 2px rgba(20,20,20,1);
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        .TextBox {
+            width: 80%;
+            height: 80%;
+            background-color: #5f5f5f;
+            border-radius: 50px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            box-shadow: 2px 2px 2px 2px rgba(20,20,20,1);
+            margin-bottom: 30px;
+            margin-top: 30px;
+        }
+
+        .StyleText {
+            font-size: 20px;
+            margin-left: 15px;
+            margin-right: 15px;
+            color: white;
+            text-shadow: 3px 3px 3px rgba(20,20,20,1);
+            text-align: center;
+        }
+    }
+
+
+
+
+
+    /*footer*/
+    /*footer desing*/
+
+    @media screen and (min-width: 650px) {
+        .BackgroundColorFooter {
+            margin-bottom: -10px;
+            height: 80px;
+            background-color: rgba(28,28,28,1);
+            font-size: 18px;
+        }
+
+        .FlexGradientFooter {
+            height: 70px;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+            color: white;
+        }
+    }
+
+    @media screen and (max-width: 650px) {
+        .BackgroundColorFooter {
+
+            margin-bottom: -10px;
+            height: 80px;
+            background-color: rgba(28,28,28,1);
+            font-size: 18px;
+        }
+
+        .FlexGradientFooter {
+            height: 70px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            color: white;
+        }
+    }
+
+
+
+
+
+
+
+

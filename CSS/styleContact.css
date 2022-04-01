@@ -1,0 +1,181 @@
+.SubmitButton {
+    margin-top: 10px;
+    margin-bottom: 50px;
+    width: 250px;
+    height: 90px;
+    border-radius: 30px;
+    background: rgb(52, 52, 52);
+    color: white;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px rgba(20,20,20,1);
+    box-shadow: 3px 3px 3px 3px rgba(60,60,60,1);
+}
+.SubmitButton:hover {
+    box-shadow: 3px 3px 3px 3px white;
+}
+
+
+
+
+@media screen and (min-width: 671px) {
+
+    .HeadingOne {
+        color: white;
+        font-size: 90px;
+        text-align: center;
+        text-shadow: 4px 4px 4px rgba(40,40,40,1);
+    }
+
+    .TextContact {
+        color: white;
+        font-size: 29px;
+        text-shadow: 2px 2px 2px rgba(40,40,40,1);
+        margin-left: 20px;
+    }
+
+    .UsernameBox {
+        margin-top: 10px;
+        width: 70%;
+        color: white;
+        font-size: 29px;
+        border-radius: 10px;
+        border: solid 4px rgb(38, 38, 38);
+        background-color: rgb(52, 52, 52);
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .MailAdresBox {
+        margin-top: 10px;
+        width: 70%;
+        color: white;
+        font-size: 29px;
+        border-radius: 10px;
+        border: solid 4px rgb(38, 38, 38);
+        background-color: rgb(52, 52, 52);
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .TextContactBox {
+        margin-top: 10px;
+        margin-left: 20px;
+        margin-right: 30px;
+        width: 90%;
+        height: 600px;
+        color: white;
+        font-size: 29px;
+        border-radius: 10px;
+        border: solid 4px rgb(38, 38, 38);
+        background-color: rgb(52, 52, 52);
+        margin-bottom: 50px;
+    }
+
+    .UserMailBox {
+        background-color: rgb(128, 128, 128);
+        border-color: rgba(88, 88, 88,0.4);
+        width: 90%;
+        border-radius: 20px;
+        margin-left: 5%;
+        box-shadow: 3px 3px 3px rgba(40,40,40,1);
+    }
+
+    .ContactBox {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .HeaderOneContact {
+        margin-top: 50px;
+        margin-bottom: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 1000px;
+        height: 500px;
+        background-color: #353535;
+        box-shadow: 3px 3px 3px rgba(20,20,20,1);
+        border-radius: 20px;
+    }
+
+}
+
+@media screen and (max-width: 670px) {
+
+
+    .FlexContactMail{
+        display:flex;
+        flex-direction:column;
+
+
+    }
+    .HeadingOne {
+        color: white;
+        font-size: 60px;
+        text-align: center;
+        text-shadow: 4px 4px 4px rgba(40,40,40,1);
+    }
+
+    .TextContact {
+        margin-top:20px;
+        color: white;
+        font-size: 29px;
+        text-shadow: 2px 2px 2px rgba(40,40,40,1);
+        margin-left: 20px;
+    }
+
+    .UsernameBox {
+        margin-top: 10px;
+        width: 90%;
+        color: white;
+        font-size: 29px;
+        border-radius: 10px;
+        border: solid 4px rgb(38, 38, 38);
+        background-color: rgb(52, 52, 52);
+        text-align: center;
+        margin-left: 10px;
+        margin-top: 20px;
+
+    }
+
+    .MailAdresBox {
+        margin-top: 10px;
+        width: 90%;
+        color: white;
+        font-size: 29px;
+        border-radius: 10px;
+        border: solid 4px rgb(38, 38, 38);
+        background-color: rgb(52, 52, 52);
+        text-align: center;
+        margin-bottom: 30px;
+        margin-left: 10px;
+        margin-top: 20px;
+    }
+
+    .TextContactBox {
+        margin-top: 10px;
+        margin-left: 5px;
+        margin-right: 20px;
+        width: 90%;
+        height: 600px;
+        color: white;
+        font-size: 15px;
+        border-radius: 10px;
+        border: solid 4px rgb(38, 38, 38);
+        background-color: rgb(52, 52, 52);
+        margin-bottom: 50px;
+    }
+
+    .UserMailBox {
+        background-color: rgb(128, 128, 128);
+        border-color: rgba(88, 88, 88,0.4);
+        width: 90%;
+        border-radius: 20px;
+        margin-left: 5%;
+        box-shadow: 3px 3px 3px rgba(40,40,40,1);
+    }
+}
