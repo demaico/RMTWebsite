@@ -39,16 +39,16 @@ var PictureState = 0;
 
 
 function LoadPictures(){
-    if (PictureState == 1) {
+    if (PictureState == 0) {
     
         picJS.innerHTML = "<img class='BasPic' src='picturesPage/1.png'/>  ";
 
         
     }
-    else if (PictureState == 2) {
+    else if (PictureState == 1) {
         picJS.innerHTML = "<img class='BasPic' src='picturesPage/2.png'/>";
     }
-    else if (PictureState == 3) {
+    else if (PictureState == 2) {
         picJS.innerHTML = "<img class='BasPic' src='picturesPage/3.png'/>";
 
     }
