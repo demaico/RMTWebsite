@@ -37,46 +37,37 @@ var picMem;
 var PictureState = 0;
 
 
-function substract() {  }
 
-
-function ScrollPicturesAdd() {
-
-    PictureState = PictureState + 1;
-    PictureState = PictureState % 3;
-
-    if (PictureState == 0) {
+function LoadPictures(){
+    if (PictureState == 1) {
+    
         picJS.innerHTML = "<img class='BasPic' src='picturesPage/1.png'/>  ";
 
         
     }
-    else if (PictureState == 1) {
+    else if (PictureState == 2) {
         picJS.innerHTML = "<img class='BasPic' src='picturesPage/2.png'/>";
     }
-    else if (PictureState == 2) {
+    else if (PictureState == 3) {
         picJS.innerHTML = "<img class='BasPic' src='picturesPage/3.png'/>";
 
     }
+   } 
+
+    
+function ScrollPicturesAdd() {
+
+    PictureState = PictureState + 1;
+    PictureState = PictureState % 3 ;
+   LoadPictures();
 };
 function ScrollPicturesSub() {
 
     PictureState = PictureState + 2;
     PictureState = PictureState % 3;
+   
+    LoadPictures();
 
-    if (PictureState == 0) {
-
-        picJS.innerHTML = `<img class='BasPic' src='picturesPage/1.png'/>`;
-
-    }
-    else if (PictureState == 1) {
-
-        picJS.innerHTML = `<img class='BasPic' src='picturesPage/2.png'/>`;
-    }
-    else if (PictureState == 2) {
-
-        picJS.innerHTML = `<img class='BasPic' src='picturesPage/3.png'/>`;
-
-    }
 };
 
 
