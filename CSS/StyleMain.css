@@ -125,7 +125,7 @@
         }
 
         .Menu {
-            margin-top: 110px;
+            margin-top: 116px;
             position: fixed;
             z-index: 4;
             width:30%;
@@ -134,7 +134,7 @@
         }
     }
 
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width:990px) {
         .RMTSlogan {
             font-size: 100%;
             width: 550px;
@@ -187,7 +187,7 @@
         }
 
         .Menu {
-            margin-top: 110px;
+            margin-top: 116px;
             position: fixed;
             right: 0%;
             z-index: 4;

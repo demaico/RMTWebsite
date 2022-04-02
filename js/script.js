@@ -95,9 +95,7 @@ function hoverLeave(){
 };
 
 
-//BarButtonJS.addEventListener("mouseover", hoverOver())
 
-//BarButtonJS.addEventListener("mouseleave", hoverLeave())
 
 function NextPic() {
     
@@ -113,4 +111,11 @@ function Submit() {
     let textbox = document.getElementById("textInfo").value;
 
     console.log(textbox)
+}
+
+function header()
+{
+    document.write(
+        
+    )
 }
