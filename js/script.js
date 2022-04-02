@@ -113,9 +113,3 @@ function Submit() {
     console.log(textbox)
 }
 
-function header()
-{
-    document.write(
-        
-    )
-}
