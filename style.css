@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
 *{
     margin: 0;
     padding: 0;
@@ -5,10 +7,20 @@
     font-family: 'poppins', sans-serif;
 }
 
-.hero{
+.indexbg{
     width: 100%;
     height: 100vh;
     background-image: url(files/clip.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.joinbg{
+    width: 100%;
+    height: 100vh;
+    background-image: url(picturesPage/17.png);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -100,6 +112,71 @@ button:hover{
 }
 
 .socialrmt img, .usefullinkrmt img{
-    width: 50px;
+    width: 40px;
     margin-top: 25%;
+}
+
+.joinreqhero{
+    display: flex;
+    width: 85%;
+    height: 60vh;
+    background: #fff;
+    border-radius: 15px;
+    overflow: hidden;
+    margin-left: 6%;
+    margin-right: 6%;
+    margin-top: 6%;
+    margin-bottom: 6%;
+}
+.column1{
+    padding: 5% 5%;
+    font-family: 'poppins', sans-serif;
+}
+
+.column1, .column2{
+    flex-basis: 50%;
+    overflow: hidden;
+}
+
+.column2 img{
+    width: 125%;
+}
+
+.bodyjoin{
+    background-color: #FFCF57;
+}
+
+.column1 h1{
+    font-size: 50px;
+    line-height: 80px;
+    letter-spacing: 2px;
+    font-weight: 600    ;
+}
+.column1 li{
+    color: #1F1F1F;
+    line-height: 22px;
+    margin: 5px 0 5px;
+}
+
+.startjoinbtn{
+    padding: 15px 40px;
+    border: 1px solid #FFCF57;
+    outline: none;
+    border-radius: 25px;
+    background: #FFCF57;
+    color: #1F1F1F;
+    font-size: 14px;
+    cursor: pointer;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.2);
+}
+
+.startjoinbtn:hover{
+    padding: 15px 40px;
+    border: 1px solid #1F1F1F;
+    outline: none;
+    border-radius: 25px;
+    background: #FFCF57;
+    color: #1F1F1F;
+    font-size: 14px;
+    cursor: pointer;
 }

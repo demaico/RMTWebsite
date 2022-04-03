@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -10,17 +11,17 @@
     <title>Real Miles Trucking</title>
 </head>
 
-<body>
+<body class="bodyjoin">
 
     <!--NAVBAR-->
 
-    <div class="hero">
+    <div class="joinbg">
         <div class="navbarrmt">
             <a href="index.html">
                 <img src="files/logo.png" alt="logo" class="logormt">
             </a>
-            <a href="join.html" rel="noreferrer noopener">
-                <button type="button" class="joinbtn">Join</button>
+            <a href="index.html" rel="noreferrer noopener">
+                <button type="button" class="joinbtn">home</button>
             </a>
         </div>
 
@@ -29,7 +30,9 @@
         <div class="content">
             <small>Welcome to</small>
             <h1 class="h1rmt">Real Miles Trucking</h1>
-                <button type="button" class="contentbtn">More information</button>
+            <a href="#reqs">
+                <button type="button" class="contentbtn" id="moreinfo">More information</button>
+            </a>
         </div>
 
         <!--END OF TOP CONTENT-->
@@ -37,27 +40,69 @@
 
         <div class="sidebarrmt">
             <img src="IMGF/menu.png" class="menurmt" alt="">
+                <div class="socialrmt">
+                    <a href="https://discord.gg/SNWNdAHdwX" target="_blank" rel="noreferrer noopener">
+                        <img src="IMGF/discord.png" alt="Discord">
+                    </a>
+                    <a href="https://trucksbook.eu/company/125162" target="_blank" rel="noreferrer noopener">
+                        <img src="IMGF/tb.png" alt="TrucksBook">
+                    </a>
+                    <a href="https://truckersmp.com/vtc/44756" target="_blank" rel="noreferrer noopener">
+                        <img src="IMGF/TMP.png" alt="TruckersMP">
+                    </a>
+                </div>
 
-            <div class="socialrmt">
-                <a href="https://discord.gg/SNWNdAHdwX" target="_blank" rel="noreferrer noopener">
-                    <img src="IMGF/discord.png" alt="Discord">
-                </a>
-                <a href="https://trucksbook.eu/company/125162" target="_blank" rel="noreferrer noopener">
-                    <img src="IMGF/tb.png" alt="TrucksBook">
-                </a>
-                <a href="https://truckersmp.com/vtc/44756" target="_blank" rel="noreferrer noopener">
-                    <img src="IMGF/TMP.png" alt="TruckersMP">
-                </a>
-            </div>
-
-            <div class="usefullinkrmt">
-                <img src="IMGF/share.png" alt="share">
-                <img src="IMGF/info.png" alt="info">
+                <div class="usefullinkrmt">
+                    <img src="IMGF/share.png" alt="share">
+                    <img src="IMGF/info.png" alt="info">
+                </div>
             </div>
         </div>
 
         <!--END OF SIDEBAR-->
+        <!--Join requirements-->
+        
+        <section class="joinbgc">
+            <div class="joinreqhero" id="reqs">
+                <div class="column1">
+                    <h1>Requirements to join</h1>
+                    <li>Respect everyone, no discrimination or any kind of harrassment.</li>
+                    <li>In the voice channels be also respectful to each other.</li>
+                    <li>English is the main language of this server.</li>
+                    <li>Keep swearing to a minimum.</li>
+                    <li>At least 17 years old.</li>
+                    <li>Apply on TMP and Trucksbook.</li>
+                    <li>Use the in-game tag and paint correctly.</li>
+                    <li>Always follow the rules set by truckersMP.</li>
+                    <li>Do not spam, advertising can only after consulting staff.</li>
+                    <li>Being inactive without notice will result in removal of the VTC.</li>
+                    <a href="#startjoining">
+                        <button class="startjoinbtn">Start joining</button>
+                    </a>
+                </div>
+                <div class="column2">
+                    <img src="picturesPage/8.png" alt="">
+                </div>
+            </div>
+        </section>
 
-    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </body>
 </html>
