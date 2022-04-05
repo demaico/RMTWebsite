@@ -3,6 +3,8 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="shortcut icon" href="files/LOGO.ico">
@@ -13,6 +15,21 @@
 
 <body class="bodyjoin">
 
+    <!--scroll to top-->
+    <button id="btnScrollToTop">
+        <i class="material-icons">arrow_upward</i>
+    </button>
+    <script>
+        const btnScrollToTop = document.querySelector("#btnScrollToTop");
+        btnScrollToTop.addEventListener("click", function () {
+            window.scrollTo({
+                top: 0,
+                left: 0,
+                behavior: "smooth"
+            });
+        });
+    </script>
+
     <!--NAVBAR-->
 
     <div class="joinbg">
@@ -21,21 +38,25 @@
                 <img src="files/logo.png" alt="logo" class="logormt">
             </a>
             <a href="index.html" rel="noreferrer noopener">
-                <button type="button" class="joinbtn">home</button>
+                <button type="button" class="joinbtn">
+                    home
+                </button>
             </a>
         </div>
 
-        <!--END OF NAVBAR-->
-        <!--TOP CONTENT-->
-        <div class="content">
-            <small>Welcome to</small>
-            <h1 class="h1rmt">Real Miles Trucking</h1>
+        <!--HEAD-->
+
+        <div class="contentjoin">
+            <h1 class="h1rmt">
+                How to join Real Miles Trucking
+            </h1>
             <a href="#reqs">
-                <button type="button" class="contentbtn" id="moreinfo">More information</button>
+                <button type="button" class="contentbtn" id="moreinfo">
+                    Join requirements
+                </button>
             </a>
         </div>
 
-        <!--END OF TOP CONTENT-->
         <!--SIDEBAR-->
 
         <div class="sidebarrmt">
@@ -59,7 +80,6 @@
             </div>
         </div>
 
-        <!--END OF SIDEBAR-->
         <!--content-->
         
         <section class="joinbgc">
@@ -81,7 +101,7 @@
                     </a>
                 </div>
                 <div class="column2">
-                    <img src="picturesPage/8.png" alt="">
+                    <img src="picturesPage/8.png" alt="" style="width: 130%;">
                 </div>
             </div>
 
@@ -91,16 +111,35 @@
                 </div>
                 <div class="column1">
                     <h1>Step 1</h1>
-                    <li>Register using Steam and log in.</li>
+                    <li>Log in or register on 
+                        <a href="https://www.discord.com" style="color: #1F1F1F;" target="_blank" rel="noreferrer noopener">
+                            Discord
+                        </a>
+                    </li>
+                    <li>Join our server by clicking 
+                        <a href="https://discord.gg/SNWNdAHdwX" style="color: #1F1F1F;" target="_blank" rel="noreferrer noopener">
+                            here
+                        </a>
+                     and accept the server rules.</li>
+                    <img src="files/dcserver.PNG" style="width: 100%;">
+                </div>
+            </div>
+
+            <div class="joinreqhero">
+                <div class="column1">
+                    <h1>Step 2</h1>
                     <li>Go to 
-                        <a href="https://trucksbook.eu/company/125162" style="color: #1F1F1F;" target="_blank" rel="noreferrer noopener">
-                            TrucksBook
+                        <a href="https://trucksbook.eu" style="color: #1F1F1F;" target="_blank" rel="noreferrer noopener">
+                            TrucksBook,
                         </a>
-                     and apply for our VTC.</li>
-                    <li>Go to the 
-                        <a href="https://trucksbook.eu/index" style="color: #1F1F1F;" target="_blank" rel="noreferrer noopener">
-                            main page
-                        </a>
+                        register using Steam and log in.<li>
+                            Apply for the VTC on 
+                            <a href="https://trucksbook.eu/company/125162" style="color: #1F1F1F;" target="_blank" rel="noreferrer noopener">this page.</a>
+                        </li>
+                        <li>Go to the 
+                            <a href="https://trucksbook.eu/index" style="color: #1F1F1F;" target="_blank" rel="noreferrer noopener">
+                                main page
+                            </a>
                     after logging in and click on download client.</li>
                     <li>Or download on our website
                         <a href="https://cdn.trucksbook.eu/data/client/TB_Client_1_4_0.zip" style="color: #1F1F1F;" target="_blank" rel="noreferrer noopener">
@@ -110,7 +149,34 @@
                     <li>Install and log in.</li>
                     <img src="files/TBC.PNG" style="width: 75%;">
                 </div>
+                <div class="column2">
+                    <img src="picturesPage/13.png" id="img2" style="width: 135%;">
+                </div>
             </div>
-        </section>
-</body>
-</html>
+
+            <div class="joinreqhero">
+                <div class="column2">
+                    <img src="picturesPage/11.png" id="img2" style="width: 130%;">
+                </div>
+                <div class="column1">
+                    <h1>Step 3</h1>
+                    <li>Go to 
+                        <a href="https://truckersmp.com/" style="color: #1F1F1F;" target="_blank" rel="noreferrer noopener">
+                            TruckersMP,
+                        </a>
+                         register using Steam and log in.
+                            <li>Apply for the VTC on 
+                            <a href="https://truckersmp.com/vtc/44756" style="color: #1F1F1F;" target="_blank" rel="noreferrer noopener">this page.</a>
+                        </li>
+                    <img src="files/tmppage.PNG" style="width: 100%;">
+                </div>
+            </div>
+                </section>
+
+                <div class="footer">
+                    <p>
+                        Web design by Meiko © 2022 - All Rights Reserved
+                    </p>
+                </div>
+            </body>
+            </html>
